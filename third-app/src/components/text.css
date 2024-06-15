@@ -1,0 +1,35 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+} */
+
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+} */
+
+/* button{
+    background-color: rgb(32, 29, 228);
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+} */
+.cocktail-data-fetch{
+    text-align: center;
+}
+
+.cocktail-data{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.cocktail-data li{
+    list-style-type: none;
+}
+.cocktail-data li img{
+
+    width: 100%;
+     
+}
